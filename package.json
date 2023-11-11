@@ -1,0 +1,43 @@
+{
+  "name": "formio-react-custom-text-field-forked-t1",
+  "version": "1.0.0",
+  "description": "",
+  "keywords": [],
+  "main": "src/App.js",
+  "dependencies": {
+    "@formio/bulma": "2.0.0",
+    "@formio/react": "5.2.4-rc.2",
+    "@popperjs/core": "2.11.7",
+    "acorn": "8.8.2",
+    "bootstrap": "5.2.3",
+    "dragula": "3.7.3",
+    "formiojs": "5.0.0-rc.4",
+    "json-logic-js": "2.0.2",
+    "liquidjs": "10.8.3",
+    "lodash": "4.17.21",
+    "react": "18.2.0",
+    "react-ace": "10.1.0",
+    "react-bootstrap": "2.7.2",
+    "react-bootstrap-icons": "1.10.3",
+    "react-dom": "17.0.2",
+    "react-popper": "2.3.0",
+    "react-scripts": "5.0.1",
+    "resize-observer-polyfill": "1.5.1",
+    "uuid": "9.0.0"
+  },
+  "devDependencies": {
+    "typescript": "3.3.3"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ]
+}

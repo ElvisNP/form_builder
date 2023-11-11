@@ -1,0 +1,101 @@
+body {
+  overflow: visible; /* was hidden */
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.App {
+  font-family: sans-serif;
+  text-align: center;
+  overflow: visible;
+}
+
+.float-right {
+  float: right;
+}
+.float-left {
+  float: left;
+}
+
+button {
+  border: none;
+  padding: 8px;
+  margin-right: 2px;
+}
+.blue {
+  background-color: blue;
+  color: white;
+  border: none;
+  padding: 8px;
+}
+.green {
+  background-color: darkolivegreen;
+  color: white;
+}
+
+.form-builder-wrapper {
+  min-height: 500px;
+  max-height: 1000px; /* added a max-height */
+  overflow-y: visible; /* was auto */
+}
+
+.formbuilder {
+  padding: 20px;
+  position: relative;
+  /*border-style: dotted;*/
+  max-height: 1000px;
+  overflow: visible; /* was auto */
+}
+
+.form-preview-wrapper {
+  margin: 20px;
+  min-height: 100px;
+  max-height: 700px;
+  box-shadow: 0 2px 3px 0 rgba(0, 0, 0, 0.25),
+    0 3px 14px 4px rgba(0, 0, 0, 0.05) !important;
+}
+
+.form-schema-wrapper {
+  text-align: left;
+  margin: 20px;
+  overflow: auto;
+  min-height: 150px;
+  max-height: 200px;
+  box-shadow: 0 2px 3px 0 rgba(0, 0, 0, 0.25),
+    0 3px 14px 4px rgba(0, 0, 0, 0.05) !important;
+}
+
+.shadow-custom {
+  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.25),
+    0 3px 10px 5px rgba(0, 0, 0, 0.05) !important;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+.toggle-button-custom-inactive button{
+  background-color: white;
+  border: 0.5px solid gainsboro;
+}
+.toggle-button-custom-active button{
+  background-color: gray;
+  border-color :gray !important;
+  color:white !important;
+}
+.toggle-button-custom button{
+  padding : 4px 6px;
+  font-size:smaller;
+  color:black;
+  // --bs-btn-border-color: gainsboro;
+  border-color:gainsboro
+}
+.toggle-button-custom button:hover{
+  background-color: lightgray;
+  border: 0.5px solid lightgray;
+  color:black !important;
+}
